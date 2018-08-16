@@ -1,5 +1,10 @@
 # gocap
 基于gopacket的抓包工具
+```
+winpcap只能嗅探,想要拦截/修改可使用WinDivert框架实现
+```
+[WinDivert地址](https://www.reqrypt.org/windivert.html)   
+[WinDivert Go绑定](https://github.com/williamfhe/godivert)
 
 ## win10环境搭建步骤
 #### 1、下载安装tdm-gcc [下载地址](http://tdm-gcc.tdragon.net/download)  
